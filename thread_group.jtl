@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1717511754781,1131,Post Registrasi,200,OK,Thread Group 1-1,text,true,,1745,317,1,1,https://secondhand.binaracademy.org/users.json,1131,0,733
+1717511755914,401,Post Login,200,OK,Thread Group 1-1,text,true,,2072,315,1,1,https://secondhand.binaracademy.org/users/sign_in.json,401,0,0
+1717511756316,276,Get Categories,200,OK,Thread Group 1-1,text,true,,1070,202,1,1,https://secondhand.binaracademy.org/categories.json,276,0,0
+1717511756593,272,Get id Categories,200,OK,Thread Group 1-1,text,true,,729,204,1,1,https://secondhand.binaracademy.org/categories/1.json,272,0,0
+1717511756866,231,Post Offers,201,Created,Thread Group 1-1,text,true,,2687,543,1,1,https://secondhand.binaracademy.org/offers.json,231,0,0
+1717511757098,86,Get Offers,200,OK,Thread Group 1-1,text,true,,1136,458,1,1,https://secondhand.binaracademy.org/users/100020/offers.json,86,0,0
+1717511757185,325,PUT Offers,500,Internal Server Error,Thread Group 1-1,text,false,,385,518,1,1,https://secondhand.binaracademy.org/offers/100019.json,325,0,0
+1717511757511,62,Post Product,404,Not Found,Thread Group 1-1,text,false,,361,593,1,1,https://secondhand.binaracademy.org/product.json,62,0,0
+1717511757574,224,Get Product,200,OK,Thread Group 1-1,text,true,,13295,447,1,1,https://secondhand.binaracademy.org/products.json,224,0,0
+1717511757799,166,Get Id Produk,200,OK,Thread Group 1-1,text,true,,2379,450,1,1,https://secondhand.binaracademy.org/products/27.json,165,0,0
+1717511757965,235,PUT Product,404,Not Found,Thread Group 1-1,text,false,,361,590,1,1,https://secondhand.binaracademy.org/,235,0,0
+1717511758200,151,Delete Produk,403,Forbidden,Thread Group 1-1,text,false,,1012,472,1,1,https://secondhand.binaracademy.org/products/27.json,151,0,0
+1717511758352,109,Get Profile,200,OK,Thread Group 1-1,text,true,,1445,447,1,1,https://secondhand.binaracademy.org/profiles.json,109,0,0
+1717511758462,1,PUT Profile,Non HTTP response code: org.apache.http.client.ClientProtocolException,Non HTTP response message: URI does not specify a valid host name: http:/?user[name]=ADMIN&user[phone_number]=0813131211175&user[address]=BANDUNG&user[city_id]=15773,Thread Group 1-1,text,false,,1214,0,1,1,http:/?user[name]=ADMIN&user[phone_number]=0813131211175&user[address]=BANDUNG&user[city_id]=15773,0,0,0
